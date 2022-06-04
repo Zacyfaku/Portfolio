@@ -1,0 +1,21 @@
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+._container{
+    max-width: 1220px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+._logo{
+    font-family: 'Permanent Marker', cursive;
+    color: $black;
+    font-size: 36px;
+    line-height: 52px;
+}

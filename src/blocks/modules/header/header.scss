@@ -1,0 +1,39 @@
+.header {
+    background-color: $black;
+
+    &__container {
+        min-height: 80px;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+
+    &__nav {}
+
+    &__menu {}
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    &__item {
+        &:not(&:last-child){
+            margin-right: 30px;
+        }
+    }
+}
+
+.heder-menu {
+
+    &__link {
+        color: $white;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+._active-link{
+    border-bottom: 3px solid $yelow;
+}
